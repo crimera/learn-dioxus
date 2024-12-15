@@ -60,5 +60,5 @@ jobs:
           path: target/dx/v/release/web/public
 
       - id: deploy
-      name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v4
+        name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
